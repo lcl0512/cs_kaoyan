@@ -1,4 +1,5 @@
-#pragma once
+#ifndef LINKLIST_H
+#define LINKLIST_H
 
 typedef int ElemType;
 typedef struct LNode{
@@ -26,3 +27,5 @@ bool Delete_ElemByValue(LinkList& L, ElemType e);
 int Length(const LinkList& L);
 /*打印链表*/
 void Print_LinkList(const LinkList& L);
+
+#endif

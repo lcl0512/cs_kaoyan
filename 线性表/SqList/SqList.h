@@ -1,4 +1,6 @@
-#pragma once
+#ifndef SQ_LIST_H
+#define SQ_LIST_H
+
 #define MaxSize 50
 
 typedef int ElemType;
@@ -16,3 +18,5 @@ bool ListDelete(SqList& L,int i, ElemType &e);
 int LocateElem(SqList L,ElemType e);
 
 void PrintList(const SqList& L);
+
+#endif
