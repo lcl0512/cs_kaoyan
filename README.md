@@ -3,5 +3,5 @@
 
 #### 1. 线性表
 
-- [顺序表（已完成）](线性表/SqlList/help.md)
+- [顺序表（已完成）](线性表/SqList/help.md)
 - [单链表（已完成）](线性表/LinkList/help.md)
