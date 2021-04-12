@@ -14,7 +14,7 @@
 #### 2. 栈和队列
 - 栈（已完成）
   - [顺序栈（已完成）](栈和队列/SqStack/help.md)
-  - [链式栈（已完成）](栈和队列/LinkedStack/help.md))
+  - [链式栈（已完成）](栈和队列/LinkedStack/help.md)
 
 - [队列（未开始）]()
 
