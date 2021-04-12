@@ -109,7 +109,21 @@ bool Delete_ElemByValue(LinkList& L, ElemType e){
     free(s);
     return true;
 }
-
+    
+bool Delete_P(LinkList& L, LNode* p){
+    if(p==NULL){
+        return false;
+    }
+    if(p->next==NULL)// p是最后一个结点
+        p = NULL;
+    else{
+        LNode* q = p->next; 
+        p->data = q->data; // 将q的值拷贝到p中
+        p->next = q->next; // 删除q
+        free(q);
+    }
+    return true;
+}
 int Length(const LinkList& L){
     LNode* p = L->next;
     int i = 0;

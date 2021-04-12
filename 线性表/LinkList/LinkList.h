@@ -23,6 +23,8 @@ bool Insert_Prev(LinkList& L, int i, ElemType e);
 bool Delete_Elem(LinkList& L, int i, ElemType& e);
 /*按值删除结点*/
 bool Delete_ElemByValue(LinkList& L, ElemType e);
+/*删除结点p*/
+bool Delete_P(LinkList& L);
 /*求表长*/
 int Length(const LinkList& L);
 /*打印链表*/
